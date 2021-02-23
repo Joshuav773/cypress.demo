@@ -1,0 +1,25 @@
+{
+    "projectId": "7addfn",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "baseUrl": "http://bhgdev/bpp/login",
+    "pluginsFile": "cypress/plugins/index.ts",
+    "supportFile": "cypress/support/index.ts",
+    "defaultCommandTimeout": 15000,
+    "pageLoadTimeout": 20000,
+    "watchForFileChanges": false,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    },
+    "screenshotsFolder": "cypress/screenshots/",
+    "videosFolder": "cypress/videos/"
+
+}
